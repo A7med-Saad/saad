@@ -1,0 +1,525 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth; 
+}
+
+body{
+  font-family: "Work Sans", sans-serif;
+}
+
+@media (max-width: 767){
+  .special-heading{
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container{
+    width: 750px;
+  }
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+  .container{
+    width: 970px;
+  }
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+  .container{
+    width: 1170px;
+  }
+}
+
+.container{
+  padding: 30px;
+}
+
+.container .circle h3{
+  color: aquamarine;
+}
+
+.container .a1{
+  position: relative;
+  margin: 10px;
+  width: fit-content;
+  color: blue;
+}
+
+.container .a1::after{
+  content: "";
+  position: absolute;
+  background-color: blue;
+  height: 10px;
+  width: 10px;
+  top: 100%;
+  right: 100%;
+  border-radius: 50%;
+}
+
+.container .a1::before{
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(to right, blue 50%, #aeaeae 50%);
+  height: 0.5px;
+  width: calc(100% + 100%) ;
+  top: calc(100% + 5px);
+}
+
+.container .a2{
+  position: relative;
+  margin: 10px;
+  width: fit-content;
+  color: red;
+}
+
+.container .a2::after{
+  content: "";
+  position: absolute;
+  background-color: red;
+  height: 10px;
+  width: 10px;
+  top: 100%;
+  right: 100%;
+  border-radius: 50%;
+}
+
+.container .a2::before{
+  content: "";
+  position: absolute;
+  /* background-color: ; */
+  background-image: linear-gradient(to right, red 50%, #aeaeae 50%);
+  height: 1px;
+  width: calc(100% + 100%) ;
+  top: calc(100% + 5px);
+}
+
+.container .a3{
+  position: relative;
+  margin: 10px;
+  width: fit-content;
+  color: green;
+}
+
+.container .a3::after{
+  content: "";
+  position: absolute;
+  background-color: green;
+  height: 10px;
+  width: 10px;
+  top: 100%;
+  right: 100%;
+  border-radius: 50%;
+}
+
+.container .a3::before{
+  content: "";
+  position: absolute;
+  /* background-color: ; */
+  background-image: linear-gradient(to right, green 50%, #aeaeae 50%);
+  height: 0.5px;
+  width: calc(100% + 100%) ;
+  top: calc(100% + 5px);
+}
+
+.container .a4{
+  position: relative;
+  margin: 10px;
+  width: fit-content;
+  color: yellowgreen;
+}
+
+.container .a4::after{
+  content: "";
+  position: absolute;
+  background-color: yellowgreen;
+  height: 10px;
+  width: 10px;
+  top: 100%;
+  right: 100%;
+  border-radius: 50%;
+}
+
+.container .a4::before{
+  content: "";
+  position: absolute;
+  /* background-color: ; */
+  background-image: linear-gradient(to right, yellowgreen 50%, #aeaeae 50%);
+  height: 1px;
+  width: calc(100% + 100%) ;
+  top: calc(100% + 5px);
+}
+
+.container .box h3{
+  color: aquamarine;
+}
+
+.container .b1{
+    position: relative;
+    margin: 10px;
+    width: fit-content;
+    color: blue;
+  }
+
+.container .b1::after{
+  content: "";
+  position: absolute;
+  background-color: blue;
+  height: 10px;
+  width: 10px;
+  top: 100%;
+  right: 100%;
+  /* border-radius: 50%; */
+}
+
+.container .b1::before{
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(to right, blue 50%, #aeaeae 50%);
+  height: 1px;
+  width: calc(100% + 100%) ;
+  top: calc(100% + 5px);
+}
+
+.container .b2{
+  position: relative;
+  margin: 10px;
+  width: fit-content;
+  color: red;
+}
+
+.container .b2::after{
+  content: "";
+  position: absolute;
+  background-color: red;
+  height: 10px;
+  width: 10px;
+  top: 100%;
+  right: 100%;
+  /* border-radius: 50%; */
+}
+
+.container .b2::before{
+  content: "";
+  position: absolute;
+  /* background-color: ; */
+  background-image: linear-gradient(to right, red 50%, #aeaeae 50%);
+  height: 1px;
+  width: calc(100% + 100%) ;
+  top: calc(100% + 5px);
+}
+
+.container .b3{
+  position: relative;
+  margin: 10px;
+  width: fit-content;
+  color: green;
+}
+
+.container .b3::after{
+  content: "";
+  position: absolute;
+  background-color: green;
+  height: 10px;
+  width: 10px;
+  top: 100%;
+  right: 100%;
+  /* border-radius: 50%; */
+}
+
+.container .b3::before{
+  content: "";
+  position: absolute;
+  /* background-color: ; */
+  background-image: linear-gradient(to right, green 50%, #aeaeae 50%);
+  height: 1px;
+  width: calc(100% + 100%) ;
+  top: calc(100% + 5px);
+}
+
+.container .b4{
+  position: relative;
+  margin: 10px;
+  width: fit-content;
+  color: yellowgreen;
+}
+
+.container .b4::after{
+  content: "";
+  position: absolute;
+  background-color: yellowgreen;
+  height: 10px;
+  width: 10px;
+  top: 100%;
+  right: 100%;
+  /* border-radius: 50%; */
+}
+
+.container .b4::before{
+  content: "";
+  position: absolute;
+  /* background-color: ; */
+  background-image: linear-gradient(to right, yellowgreen 50%, #aeaeae 50%);
+  height: 1px;
+  width: calc(100% + 100%) ;
+  top: calc(100% + 5px);
+}
+
+.container .triangle-up h3{
+  color: aquamarine;
+}
+
+.container .c1{
+  position: relative;
+  margin: 10px;
+  width: fit-content;
+  color: blue;
+}
+
+
+.container .c1::after{
+  content: "";
+  position: absolute;
+  background-color: blue;
+  height: 0;
+  width: 0;
+  top:calc(100% + 5px) ;
+  right: 100%;
+  /* border-radius: 50%; */
+  border: 5px solid;
+  border-color: blue white white;
+}
+
+.container .c1::before{
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(to right, blue 50%, #aeaeae 50%);
+  height: 1px;
+  width: calc(100% + 100%) ;
+  top: calc(100% + 5px);
+}
+
+.container .c2{
+  position: relative;
+  margin: 10px;
+  width: fit-content;
+  color: red;
+}
+
+.container .c2::after{
+  content: "";
+  position: absolute;
+  background-color: red;
+  height: 0;
+  width: 0;
+  top:calc(100% + 5px) ;
+  right: 100%;
+  /* border-radius: 50%; */
+  border: 5px solid;
+  border-color: red white white;
+}
+
+.container .c2::before{
+  content: "";
+  position: absolute;
+  /* background-color: ; */
+  background-image: linear-gradient(to right, red 50%, #aeaeae 50%);
+  height: 0.5px;
+  width: calc(100% + 100%) ;
+  top: calc(100% + 5px);
+}
+
+.container .c3{
+  position: relative;
+  margin: 10px;
+  width: fit-content;
+  color: green;
+}
+
+.container .c3::after{
+  content: "";
+  position: absolute;
+  background-color: green;
+  height: 0;
+  width: 0;
+  top:calc(100% + 5px) ;
+  right: 100%;
+  /* border-radius: 50%; */
+  border: 5px solid;
+  border-color: green white white;
+}
+
+.container .c3::before{
+  content: "";
+  position: absolute;
+  /* background-color: ; */
+  background-image: linear-gradient(to right, green 50%, #aeaeae 50%);
+  height: 1px;
+  width: calc(100% + 100%) ;
+  top: calc(100% + 5px);
+  margin-left: 1px;
+}
+
+.container .c4{
+  position: relative;
+  margin: 10px;
+  width: fit-content;
+  color: yellowgreen;
+}
+
+.container .c4::after{
+  content: "";
+  position: absolute;
+  background-color: yellowgreen;
+  height: 0;
+  width: 0;
+  top:calc(100% + 5px) ;
+  right: 100%;
+  /* border-radius: 50%; */
+  border: 5px solid;
+  border-color: yellowgreen white white;
+}
+
+.container .c4::before{
+  content: "";
+  position: absolute;
+  /* background-color: ; */
+  background-image: linear-gradient(to right, yellowgreen 50%, #aeaeae 50%);
+  height: 0.5px;
+  width: calc(100% + 100%) ;
+  top: calc(100% + 5px);
+}
+
+.container .triangle-bowm h3{
+  color: aquamarine;
+}
+
+.container .d1{
+  position: relative;
+  margin: 10px;
+  width: fit-content;
+  color: blue;
+}
+
+
+.container .d1::after{
+  content: "";
+  position: absolute;
+  background-color: blue;
+  height: 0;
+  width: 0;
+  top:calc(100% - 4px) ;
+  right: 100%;
+  /* border-radius: 50%; */
+  border: 5px solid;
+  border-color: white white blue;
+}
+
+.container .d1::before{
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(to right, blue 50%, #aeaeae 50%);
+  height: 1px;
+  width: calc(100% + 100%) ;
+  top: calc(100% + 5px);
+}
+
+.container .d2{
+  position: relative;
+  margin: 10px;
+  width: fit-content;
+  color:red;
+}
+
+.container .d2::after{
+  content: "";
+  position: absolute;
+  background-color: red;
+  height: 0;
+  width: 0;
+  top:calc(100% - 4px) ;
+  right: 100%;
+  /* border-radius: 50%; */
+  border: 5px solid;
+  border-color: white white red;
+}
+
+.container .d2::before{
+  content: "";
+  position: absolute;
+  /* background-color: ; */
+  background-image: linear-gradient(to right, red 50%, #aeaeae 50%);
+  height: 1px;
+  width: calc(100% + 100%) ;
+  top: calc(100% + 5px);
+}
+
+.container .d3{
+  position: relative;
+  margin: 10px;
+  width: fit-content;
+  color: green;
+}
+
+.container .d3::after{
+  content: "";
+  position: absolute;
+  background-color: green;
+  height: 0;
+  width: 0;
+  top:calc(100% - 4px) ;
+  right: 100%;
+  /* border-radius: 50%; */
+  border: 5px solid;
+  border-color: white white green;
+}
+
+.container .d3::before{
+  content: "";
+  position: absolute;
+  /* background-color: ; */
+  background-image: linear-gradient(to right, green 50%, #aeaeae 50%);
+  height: 1px;
+  width: calc(100% + 100%) ;
+  top: calc(100% + 5px);
+  margin-left: 1px;
+}
+
+.container .d4{
+  position: relative;
+  margin: 10px;
+  width: fit-content;
+  color: yellowgreen
+}
+
+.container .d4::after{
+  content: "";
+  position: absolute;
+  background-color: yellowgreen;
+  height: 0;
+  width: 0;
+  top:calc(100% - 4px) ;
+  right: 100%;
+  /* border-radius: 50%; */
+  border: 5px solid;
+  border-color: white white yellowgreen;
+}
+
+.container .d4::before{
+  content: "";
+  position: absolute;
+  /* background-color: ; */
+  background-image: linear-gradient(to right, yellowgreen 50%, #aeaeae 50%);
+  height: 1px;
+  width: calc(100% + 100%) ;
+  top: calc(100% + 5px);
+}
